@@ -30,7 +30,7 @@ Set email
 List name and email
 - git config --global --list
 Clone my repository to local system
-- git clone https://github.com/developersCradle/github-demo.git
+- git clone https://github.com/developersCradle/starter-web 
 
 -- Staging area building several changes before committed as 1 unit
 
@@ -52,9 +52,15 @@ git config --global -e
 Ask git status
 - git status
 
+- [hipsum](https://hipsum.co/)
+- `origin/master` origin is reference to github repository, and master is branch
+- git status command keeps track of origin master
+- best practise is do pull before push
 
-[hipsum](https://hipsum.co/)
+- Basic Git Workflow
+<img src="Notes/BasicGitWorkflow.PNG" alt="alt text" width="300"/>
 
-
+- Git Tracked file
+<img src="Notes/gitTracking.PNG" alt="alt text" width="300"/>
 
 
