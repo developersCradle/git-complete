@@ -58,9 +58,12 @@ Ask git status
 - best practise is do pull before push
 
 - Basic Git Workflow
-<img src="Notes/BasicGitWorkflow.PNG" alt="alt text" width="300"/>
+<img src="BasicGitWorkflow.PNG" alt="alt text" width="300"/>
 
 - Git Tracked file
-<img src="Notes/gitTracking.PNG" alt="alt text" width="300"/>
+<img src="gitTracking.PNG" alt="alt text" width="300"/>
+
+Listing tracked files
+- git ls-files
 
 
