@@ -66,4 +66,15 @@ Ask git status
 Listing tracked files
 - git ls-files
 
+Git status only shows first level of directories
+
+Adding file recursively
+- git add .
+
+Backingout chenages form staging area
+- git reset HEAD "filename.here"
+
+Going back state when files were last committed
+- git checkout -- "filename.here"
+
 
