@@ -77,4 +77,8 @@ Backingout chenages form staging area
 Going back state when files were last committed
 - git checkout -- "filename.here"
 
+When moving or renaming files in encouraged to to use git mv
+- git mv
+Moving file one level down
+mv level2.txt ..
 
