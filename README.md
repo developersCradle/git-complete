@@ -9,7 +9,7 @@ Boosting my Git skils.
 - [x] 02 - Git Installation
 - [x] 03 - Git Quick Start
 - [x] 04 - Text Editor Installation
-- [ ] 05 - 
+- [ ] 05 - Basic Git Commands
 - [ ] 06 - 
 - [ ] 07 - 
 - [ ] 08 - 
@@ -80,5 +80,26 @@ Going back state when files were last committed
 When moving or renaming files in encouraged to to use git mv
 - git mv
 Moving file one level down
-mv level2.txt ..
+- mv level2.txt ..
 
+Deleting file
+- rm "filename"
+
+Gettig log
+- git log
+
+Inspecting individual log of file
+- git log -- "filename"
+
+Creating alias for "log --all --graph --decorate --oneline"
+- git config --global alias.hist "log --all --graph --decorate --oneline"
+Now this can be executed
+- git hist
+
+To tell git ignore specified untracked files, add to .gitignore file
+
+Creating .gitignore
+- npp .gitignore
+
+Format for gitignore
+<img src="gitIgnore.PNG" alt="alt text" width="300"/>
