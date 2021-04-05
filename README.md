@@ -9,15 +9,16 @@ Boosting my Git skils.
 - [x] 02 - Git Installation
 - [x] 03 - Git Quick Start
 - [x] 04 - Text Editor Installation
-- [ ] 05 - Basic Git Commands
-- [ ] 06 - 
-- [ ] 07 - 
-- [ ] 08 - 
-- [ ] 09 - 
-- [ ] 10 -
-- [ ] 11 - 
-- [ ] 12 - 
-- [ ] 13 - 
+- [x] 05 - Basic Git Commands
+- [x] 06 - Visual Merge/Diff Tool Installation
+- [ ] 07 - Comparisons
+- [ ] 08 - Branching and Merging
+- [ ] 09 - Rebasing
+- [ ] 10 - Stashing
+- [ ] 11 - Tagging
+- [ ] 12 - Bonus: Office Hour Sessions
+- [ ] 13 - Updates and Errata
+- [ ] 13 - Bonus: Resources and Special Offers
 
 
 ## Notes/Commands
@@ -32,7 +33,7 @@ List name and email
 Clone my repository to local system
 - git clone https://github.com/developersCradle/starter-web 
 
--- Staging area building several changes before committed as 1 unit
+Staging area building several changes before committed as 1 unit
 
 Pushing(origin refers to the GitHub copy of our repository, master is branch name on GitHub)
 - git push origin master
@@ -93,6 +94,7 @@ Inspecting individual log of file
 
 Creating alias for "log --all --graph --decorate --oneline"
 - git config --global alias.hist "log --all --graph --decorate --oneline"
+
 Now this can be executed
 - git hist
 
@@ -102,4 +104,18 @@ Creating .gitignore
 - npp .gitignore
 
 Format for gitignore
-<img src="gitIgnore.PNG" alt="alt text" width="300"/>
+- <img src="gitIgnore.PNG" alt="alt text" width="300"/>
+
+Telling git default merge tool
+- git config --global merge.tool p4merge
+Telling location of merge tool
+- git config --global mergetool.p4merge.path "D:/Program Files/p4merge.exe"
+
+Telling git default difftool tool
+- git config --global diff.tool p4merge
+Telling location of difftool tool
+- git config --global difftool.p4merge.path "D:/Program Files/p4merge.exe"
+
+Disabling Prompt, removing extra nag when needing resolve the conflict
+- git config --global difftool.prompt false
+- git config --global mergetool.prompt false
