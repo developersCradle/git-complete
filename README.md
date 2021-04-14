@@ -24,6 +24,7 @@ Boosting my Git skils.
 ## Notes/Commands
 
 
+
 Set name
 - git config --global user.name "Your Name"
 Set email
@@ -53,7 +54,7 @@ git config --global -e
 Ask git status
 - git status
 
-- [hipsum](https://hipsum.co/)
+[hipsum](https://hipsum.co/)
 - `origin/master` origin is reference to github repository, and master is branch
 - git status command keeps track of origin master
 - best practise is do pull before push
@@ -103,7 +104,7 @@ To tell git ignore specified untracked files, add to .gitignore file
 Creating .gitignore
 - npp .gitignore
 
-Format for gitignore
+Format for .gitignore
 - <img src="gitIgnore.PNG" alt="alt text" width="300"/>
 
 Telling git default merge tool
@@ -119,3 +120,39 @@ Telling location of difftool tool
 Disabling Prompt, removing extra nag when needing resolve the conflict
 - git config --global difftool.prompt false
 - git config --global mergetool.prompt false
+
+Comparing in git, compares working directory and staging area to eachother
+- git diff
+
+Compare in visual difftool if configured in git
+-git diftool
+
+HEAD is last commit in this branch
+- <img src="gitdiff.PNG" alt="alt text" width="300"/>
+Comparing working directory and git repository 
+- git difftool HEAD
+- git diff HEAD
+
+
+Comparing staging area and git repository 
+- <img src="gitdiffStaged.PNG" alt="alt text" width="300"/>
+- git difftool --staged HEAD
+- git diff --staged HEAD
+
+Diffing seperate files
+- git diff -- README.md
+- git difftool-- README.md
+
+Comapring between two commits
+- git diff 0108803 HEAD
+OR
+- git diff 0108803 effe8b6
+HEAD points to last commit in current branch 
+Comparing HEAD and HEAD -1
+- git diff HEAD HEAD^
+
+Comapring local and remote master branch
+- <img src="gitDiffMaster.PNG" alt="alt text" width="300"/>
+- git diff master origin/master
+
+
