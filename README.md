@@ -155,4 +155,30 @@ Comapring local and remote master branch
 - <img src="gitDiffMaster.PNG" alt="alt text" width="300"/>
 - git diff master origin/master
 
+Listin current branches
+- git branch -a
 
+Creating branch
+- git branch mynewbranch
+
+Switching branch
+- git checkout mynewbranch
+
+Renaming branch
+- git branch -m mynewbranch newbranch
+
+Deleting branch
+- git branch -d newbranch
+
+Diffing master branch to title-change branch
+- git diff master title-change
+
+Merging title-change branch to current branch
+- git merge title-change
+
+Fast foward merge is possible if there is no changed made on the target branch
+- <img src="FastForwardBranchStart.PNG" alt="alt text" width="300"/>
+
+Branch merge whitout fast foward
+- <img src="branchMergeNoFF.PNG" alt="alt text" width="300"/>
+- git merge add-copyright -no-ff
