@@ -11,8 +11,8 @@ Boosting my Git skils.
 - [x] 04 - Text Editor Installation
 - [x] 05 - Basic Git Commands
 - [x] 06 - Visual Merge/Diff Tool Installation
-- [ ] 07 - Comparisons
-- [ ] 08 - Branching and Merging
+- [x] 07 - Comparisons
+- [x] 08 - Branching and Merging
 - [ ] 09 - Rebasing
 - [ ] 10 - Stashing
 - [ ] 11 - Tagging
@@ -167,7 +167,7 @@ Switching branch
 Renaming branch
 - git branch -m mynewbranch newbranch
 
-Deleting branch
+Deleting branch, deletes labels
 - git branch -d newbranch
 
 Diffing master branch to title-change branch
@@ -182,3 +182,18 @@ Fast foward merge is possible if there is no changed made on the target branch
 Branch merge whitout fast foward
 - <img src="branchMergeNoFF.PNG" alt="alt text" width="300"/>
 - git merge add-copyright -no-ff
+
+```
+<<<<<<< HEAD
+	<title>A very respecfull vebsite</title>
+=======
+	<title>A Great  website2</title>
+>>>>>>> realwork
+```
+
+- HEAD is referring to masters
+- Upper what is from master and bottom what is form realwork branch
+- During resolving the merge git will save original copy of the mergeconflicts for backup
+
+Rebase is getting changes from one branch to another
+-
