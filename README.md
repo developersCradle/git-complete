@@ -11,8 +11,8 @@ Boosting my Git skils.
 - [x] 04 - Text Editor Installation
 - [x] 05 - Basic Git Commands
 - [x] 06 - Visual Merge/Diff Tool Installation
-- [ ] 07 - Comparisons
-- [ ] 08 - Branching and Merging
+- [x] 07 - Comparisons
+- [x] 08 - Branching and Merging
 - [ ] 09 - Rebasing
 - [ ] 10 - Stashing
 - [ ] 11 - Tagging
@@ -182,3 +182,10 @@ Fast foward merge is possible if there is no changed made on the target branch
 Branch merge whitout fast foward
 - <img src="branchMergeNoFF.PNG" alt="alt text" width="300"/>
 - git merge add-copyright -no-ff
+
+
+## Additional stuff
+- https://marklodato.github.io/visual-git-guide/index-en.html
+- https://www.youtube.com/watch?v=uR6G2v_WsRA 1
+- https://www.youtube.com/watch?v=FyAAIHHClqI 2
+- https://www.youtube.com/watch?v=Gg4bLk8cGNo 3
