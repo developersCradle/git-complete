@@ -127,6 +127,7 @@ Comparing in git, compares working directory and staging area to eachother
 Compare in visual difftool if configured in git
 -git diftool
 
+HEAD point to the branch where we are on
 HEAD is last commit in this branch
 - <img src="gitdiff.PNG" alt="alt text" width="300"/>
 Comparing working directory and git repository 
@@ -196,4 +197,12 @@ Branch merge whitout fast foward
 - During resolving the merge git will save original copy of the mergeconflicts for backup
 
 Rebase is getting changes from one branch to another
--
+- git rebase master
+
+DETACHED HEAD is when head is pointing to commit not to branch
+
+## Additional stuff
+- https://marklodato.github.io/visual-git-guide/index-en.html
+- https://www.youtube.com/watch?v=uR6G2v_WsRA Core Concepts 1
+- https://www.youtube.com/watch?v=FyAAIHHClqI Branching and Merging 2
+- https://www.youtube.com/watch?v=Gg4bLk8cGNo Remotes 3
