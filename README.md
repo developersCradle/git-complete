@@ -184,14 +184,6 @@ Branch merge whitout fast foward
 - <img src="branchMergeNoFF.PNG" alt="alt text" width="300"/>
 - git merge add-copyright -no-ff
 
-```
-<<<<<<< HEAD
-	<title>A very respecfull vebsite</title>
-=======
-	<title>A Great  website2</title>
->>>>>>> realwork
-```
-
 - HEAD is referring to masters
 - Upper what is from master and bottom what is form realwork branch
 - During resolving the merge git will save original copy of the mergeconflicts for backup
@@ -206,3 +198,4 @@ DETACHED HEAD is when head is pointing to commit not to branch
 - https://www.youtube.com/watch?v=uR6G2v_WsRA Core Concepts 1
 - https://www.youtube.com/watch?v=FyAAIHHClqI Branching and Merging 2
 - https://www.youtube.com/watch?v=Gg4bLk8cGNo Remotes 3
+
