@@ -13,7 +13,7 @@ Boosting my Git skils.
 - [x] 06 - Visual Merge/Diff Tool Installation
 - [x] 07 - Comparisons
 - [x] 08 - Branching and Merging
-- [ ] 09 - Rebasing
+- [x] 09 - Rebasing
 - [ ] 10 - Stashing
 - [ ] 11 - Tagging
 - [ ] 12 - Bonus: Office Hour Sessions
@@ -192,6 +192,15 @@ Rebase is getting changes from one branch to another
 - git rebase master
 
 DETACHED HEAD is when head is pointing to commit not to branch
+
+Aborting rebase
+- git rebase --abort 
+
+Rebase conflict should be treaded like merge conflict
+
+Updating references, updates references between local and remote repositoryes
+- <img src="rebase.PNG" alt="alt text" width="300"/>
+- git fetch origin master
 
 ## Additional stuff
 - https://marklodato.github.io/visual-git-guide/index-en.html
