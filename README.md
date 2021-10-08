@@ -202,6 +202,21 @@ Updating references, updates references between local and remote repositoryes
 - <img src="rebase.PNG" alt="alt text" width="300"/>
 - git fetch origin master
 
+Invoking git stash, add modified files to stash
+- `git stash` is default for `git stash save`
+
+Applying stash
+- `git stash apply`
+
+List stahes
+- `git stash list`
+
+Drops last stash
+- `git stash drop`
+
+Getting first form stash list
+- `git stash pop`
+
 ## Additional stuff
 - https://marklodato.github.io/visual-git-guide/index-en.html
 - https://www.youtube.com/watch?v=uR6G2v_WsRA Core Concepts 1
