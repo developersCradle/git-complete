@@ -14,7 +14,7 @@ Boosting my Git skils.
 - [x] 07 - Comparisons
 - [x] 08 - Branching and Merging
 - [x] 09 - Rebasing
-- [ ] 10 - Stashing
+- [x] 10 - Stashing
 - [ ] 11 - Tagging
 - [ ] 12 - Bonus: Office Hour Sessions
 - [ ] 13 - Updates and Errata
@@ -202,6 +202,7 @@ Updating references, updates references between local and remote repositoryes
 - <img src="rebase.PNG" alt="alt text" width="300"/>
 - git fetch origin master
 
+<<<<<<< HEAD
 Invoking git stash, add modified files to stash
 - `git stash` is default for `git stash save`
 
@@ -216,6 +217,32 @@ Drops last stash
 
 Getting first form stash list
 - `git stash pop`
+=======
+Making commit message for stash
+- git stash save "simple changes"
+
+3 Stashes
+- <img src="stashList.PNG" alt="alt text" width="300"/>
+
+Showing spesific stash 
+`@` reflog syntax
+- git stash show stash@{1}
+
+Applying spesific stash
+- git stash apply stash@{1}
+
+Dropping spesific stash
+- git stash drop stash@{1}
+
+Emptying empty of stashes
+- git stash clear
+
+Adding files to stash new files and modified files
+- git stash -u
+
+Creating, switching branch, applying and destroying stash all in one
+- git stash branch newchanges
+>>>>>>> 7958131ade60f84bd1af5f70b1775cae87da3c47
 
 ## Additional stuff
 - https://marklodato.github.io/visual-git-guide/index-en.html
