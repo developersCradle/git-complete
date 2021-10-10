@@ -137,72 +137,71 @@ Comparing working directory and git repository
 
 Comparing staging area and git repository 
 - <img src="gitdiffStaged.PNG" alt="alt text" width="300"/>
-- git difftool --staged HEAD
-- git diff --staged HEAD
+- `git difftool --staged HEAD`
+- `git diff --staged HEAD`
 
 Diffing seperate files
-- git diff -- README.md
-- git difftool-- README.md
+- `git diff -- README.md`
+- `git difftool-- README.md`
 
 Comapring between two commits
-- git diff 0108803 HEAD
+- `git diff 0108803 HEAD`
 OR
-- git diff 0108803 effe8b6
+- `git diff 0108803 effe8b6`
 HEAD points to last commit in current branch 
 Comparing HEAD and HEAD -1
-- git diff HEAD HEAD^
+- `git diff HEAD HEAD^`
 
 Comapring local and remote master branch
 - <img src="gitDiffMaster.PNG" alt="alt text" width="300"/>
-- git diff master origin/master
+- `git diff master origin/master`
 
 Listin current branches
-- git branch -a
+- `git branch -a`
 
 Creating branch
-- git branch mynewbranch
+- `git branch mynewbranch`
 
 Switching branch
-- git checkout mynewbranch
+- `git checkout mynewbranch`
 
 Renaming branch
-- git branch -m mynewbranch newbranch
+- `git branch -m mynewbranch newbranch`
 
 Deleting branch, deletes labels
-- git branch -d newbranch
+- `git branch -d newbranch`
 
 Diffing master branch to title-change branch
-- git diff master title-change
+- `git diff master title-change`
 
 Merging title-change branch to current branch
-- git merge title-change
+- `git merge title-change`
 
 Fast foward merge is possible if there is no changed made on the target branch
 - <img src="FastForwardBranchStart.PNG" alt="alt text" width="300"/>
 
 Branch merge whitout fast foward
 - <img src="branchMergeNoFF.PNG" alt="alt text" width="300"/>
-- git merge add-copyright -no-ff
+- `git merge add-copyright -no-ff`
 
 - HEAD is referring to masters
 - Upper what is from master and bottom what is form realwork branch
 - During resolving the merge git will save original copy of the mergeconflicts for backup
 
 Rebase is getting changes from one branch to another
-- git rebase master
+- `git rebase master`
 
 DETACHED HEAD is when head is pointing to commit not to branch
 
 Aborting rebase
-- git rebase --abort 
+- `git rebase --abort`
 
 Rebase conflict should be treaded like merge conflict
 
 Updating references, updates references between local and remote repositoryes
 - <img src="rebase.PNG" alt="alt text" width="300"/>
-- git fetch origin master
+- `git fetch origin master`
 
-<<<<<<< HEAD
 Invoking git stash, add modified files to stash
 - `git stash` is default for `git stash save`
 
@@ -217,32 +216,51 @@ Drops last stash
 
 Getting first form stash list
 - `git stash pop`
-=======
+
 Making commit message for stash
-- git stash save "simple changes"
+- `git stash save "simple changes"`
 
 3 Stashes
 - <img src="stashList.PNG" alt="alt text" width="300"/>
 
 Showing spesific stash 
 `@` reflog syntax
-- git stash show stash@{1}
+- `git stash show stash@{1}`
 
 Applying spesific stash
-- git stash apply stash@{1}
+- `git stash apply stash@{1}`
 
 Dropping spesific stash
-- git stash drop stash@{1}
+- `git stash drop stash@{1}`
 
 Emptying empty of stashes
-- git stash clear
+- `git stash clear`
 
 Adding files to stash new files and modified files
-- git stash -u
+- `git stash -u`
 
 Creating, switching branch, applying and destroying stash all in one
-- git stash branch newchanges
->>>>>>> 7958131ade60f84bd1af5f70b1775cae87da3c47
+- `git stash branch newchanges`
+
+Tags are just labes which we can attack to any commit in history
+Creates myTag, light weight tag
+- `git tag myTag`
+
+Showin list of tags
+- `git tag --list`
+
+Deleting tag
+- `git tag --delete myTag`
+
+Annotated tag has litle more extra infomation than normal tag
+-`git tag -a v-1.0`
+
+Listing tag
+- `git tag --list`
+
+Showing the tag
+- `git show v-1.0`
+
 
 ## Additional stuff
 - https://marklodato.github.io/visual-git-guide/index-en.html
