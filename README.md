@@ -261,6 +261,11 @@ Listing tag
 Showing the tag
 - `git show v-1.0`
 
+Comparing tags
+-`git diff v-1.0 v-1.2`
+
+Tagging spesific Commit
+-`git tag -a v-0.9-beta 21df23a`
 
 ## Additional stuff
 - https://marklodato.github.io/visual-git-guide/index-en.html
