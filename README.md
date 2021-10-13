@@ -15,7 +15,7 @@ Boosting my Git skils.
 - [x] 08 - Branching and Merging
 - [x] 09 - Rebasing
 - [x] 10 - Stashing
-- [ ] 11 - Tagging
+- [x] 11 - Tagging
 - [ ] 12 - Bonus: Office Hour Sessions
 - [ ] 13 - Updates and Errata
 - [ ] 13 - Bonus: Resources and Special Offers
@@ -26,33 +26,33 @@ Boosting my Git skils.
 
 
 Set name
-- git config --global user.name "Your Name"
+- `git config --global user.name "Your Name"`
 Set email
-- git config --global user.email "yourEmail@here.com"
+- `git config --global user.email "yourEmail@here.com"`
 List name and email
-- git config --global --list
+- `git config --global --list`
 Clone my repository to local system
-- git clone https://github.com/developersCradle/starter-web 
+- `git clone https://github.com/developersCradle/starter-web`
 
 Staging area building several changes before committed as 1 unit
 
 Pushing(origin refers to the GitHub copy of our repository, master is branch name on GitHub)
-- git push origin master
+- `git push origin master`
 
 List all the configuration from global or from user level
-- git config --global --list
+- `git config --global --list`
 
 Adding core ediotor to git config
-git config --global core.editor "notepad++.exe -multiInst -nosession"
+- `git config --global core.editor "notepad++.exe -multiInst -nosession"`
 
 `.bash_profile` to home directory
 Configure Notepad++ with git
 
 Testing default editor is working, editing git config file
-git config --global -e
+- `git config --global -e`
 
 Ask git status
-- git status
+- `git status`
 
 [hipsum](https://hipsum.co/)
 - `origin/master` origin is reference to github repository, and master is branch
@@ -66,73 +66,73 @@ Ask git status
 <img src="gitTracking.PNG" alt="alt text" width="300"/>
 
 Listing tracked files
-- git ls-files
+- `git ls-files`
 
 Git status only shows first level of directories
 
 Adding file recursively
-- git add .
+- `git add .`
 
 Backingout chenages form staging area
-- git reset HEAD "filename.here"
+- `git reset HEAD "filename.here"`
 
 Going back state when files were last committed
-- git checkout -- "filename.here"
+- `git checkout -- "filename.here"`
 
 When moving or renaming files in encouraged to to use git mv
-- git mv
+- `git mv`
 Moving file one level down
-- mv level2.txt ..
+- `mv level2.txt ..`
 
 Deleting file
-- rm "filename"
+- `rm "filename"`
 
 Gettig log
-- git log
+- `git log`
 
 Inspecting individual log of file
-- git log -- "filename"
+- `git log -- "filename"`
 
 Creating alias for "log --all --graph --decorate --oneline"
-- git config --global alias.hist "log --all --graph --decorate --oneline"
+- `git config --global alias.hist "log --all --graph --decorate --oneline"`
 
 Now this can be executed
-- git hist
+- `git hist`
 
 To tell git ignore specified untracked files, add to .gitignore file
 
 Creating .gitignore
-- npp .gitignore
+- `npp .gitignore`
 
 Format for .gitignore
 - <img src="gitIgnore.PNG" alt="alt text" width="300"/>
 
 Telling git default merge tool
-- git config --global merge.tool p4merge
+- `git config --global merge.tool p4merge`
 Telling location of merge tool
-- git config --global mergetool.p4merge.path "D:/Program Files/p4merge.exe"
+- `git config --global mergetool.p4merge.path "D:/Program Files/p4merge.exe"`
 
 Telling git default difftool tool
-- git config --global diff.tool p4merge
+- `git config --global diff.tool p4merge`
 Telling location of difftool tool
-- git config --global difftool.p4merge.path "D:/Program Files/p4merge.exe"
+- `git config --global difftool.p4merge.path "D:/Program Files/p4merge.exe"`
 
 Disabling Prompt, removing extra nag when needing resolve the conflict
-- git config --global difftool.prompt false
-- git config --global mergetool.prompt false
+- `git config --global difftool.prompt false`
+- `git config --global mergetool.prompt false`
 
 Comparing in git, compares working directory and staging area to eachother
-- git diff
+- `git diff`
 
 Compare in visual difftool if configured in git
--git diftool
+- `git diftool`
 
 HEAD point to the branch where we are on
 HEAD is last commit in this branch
 - <img src="gitdiff.PNG" alt="alt text" width="300"/>
 Comparing working directory and git repository 
-- git difftool HEAD
-- git diff HEAD
+- `git difftool HEAD`
+- `git diff HEAD`
 
 
 Comparing staging area and git repository 
@@ -262,10 +262,17 @@ Showing the tag
 - `git show v-1.0`
 
 Comparing tags
--`git diff v-1.0 v-1.2`
+- `git diff v-1.0 v-1.2`
 
 Tagging spesific Commit
--`git tag -a v-0.9-beta 21df23a`
+- `git tag -a v-0.9-beta 21df23a`
+
+Editing tag
+- `git tag -a v-0.8-alpha -f bd35d46`
+
+Pushing all tags
+- `git push origin master --tags`
+
 
 ## Additional stuff
 - https://marklodato.github.io/visual-git-guide/index-en.html
