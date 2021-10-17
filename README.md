@@ -6,7 +6,7 @@ All coursework for the Git Complete: The definitive, step-by-step guide to Git  
 
 [The Course at Udemy](https://www.udemy.com/course/git-complete/)  
 
-<img src="branchMergeNoFF.PNG" alt="alt text" width="300"/>
+<img src="certificate.jpg" alt="alt text" width="300"/>
 
 
 ## Progress/Curriculum
