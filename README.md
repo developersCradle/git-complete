@@ -2,6 +2,12 @@
 ![GIT](gitcomplete.jpg)
 
 Boosting my Git skils.
+All coursework for the Git Complete: The definitive, step-by-step guide to Git  by Jason Taylor.
+
+[The Course at Udemy](https://www.udemy.com/course/git-complete/)  
+
+<img src="branchMergeNoFF.PNG" alt="alt text" width="300"/>
+
 
 ## Progress/Curriculum
 
@@ -16,9 +22,9 @@ Boosting my Git skils.
 - [x] 09 - Rebasing
 - [x] 10 - Stashing
 - [x] 11 - Tagging
-- [ ] 12 - Bonus: Office Hour Sessions
-- [ ] 13 - Updates and Errata
-- [ ] 13 - Bonus: Resources and Special Offers
+- [x] 12 - Bonus: Office Hour Sessions
+- [x] 13 - Updates and Errata
+- [x] 14 - Bonus: Resources and Special Offers
 
 
 ## Notes/Commands
@@ -272,6 +278,35 @@ Editing tag
 
 Pushing all tags
 - `git push origin master --tags`
+
+
+OFFICE HOUR SESSION
+-------------------
+
+Reset back one level 
+
+- <img src="branchMergeNoFF.PNG" alt="alt text" width="300"/>
+- `git reset HEAD^1`
+Reset back two level
+- `git reset^2`
+
+Log of everything what we have done
+- <img src="reflog.png" alt="alt text" width="300"/>
+- `git reflog`
+
+Resetting to spesific place
+- `git reset e343212`
+
+Resetting to spesific place using @ marking, works with stahes
+- `git reset HEAD@{2}`
+
+Show local and remote branches
+- `git branch -a`
+
+Gets references that has changes in remote repository
+- `git fetch`
+
+
 
 
 ## Additional stuff
