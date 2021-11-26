@@ -66,10 +66,10 @@ Ask git status
 - best practise is do pull before push
 
 - Basic Git Workflow
-<img src="BasicGitWorkflow.PNG" alt="alt text" width="300"/>
+- <img src="BasicGitWorkflow.PNG" alt="alt text" width="300"/>
 
 - Git Tracked file
-<img src="gitTracking.PNG" alt="alt text" width="300"/>
+- <img src="gitTracking.PNG" alt="alt text" width="300"/>
 
 Listing tracked files
 - `git ls-files`
@@ -115,6 +115,7 @@ Format for .gitignore
 
 Telling git default merge tool
 - `git config --global merge.tool p4merge`
+
 Telling location of merge tool
 - `git config --global mergetool.p4merge.path "D:/Program Files/p4merge.exe"`
 
@@ -207,6 +208,7 @@ Rebase conflict should be treaded like merge conflict
 Updating references, updates references between local and remote repositoryes
 - <img src="rebase.PNG" alt="alt text" width="300"/>
 - `git fetch origin master`
+	- In the simplest terms, `git pull` does a `git fetch` followed by a `git merge`.
 
 Invoking git stash, add modified files to stash
 - `git stash` is default for `git stash save`
