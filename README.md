@@ -29,14 +29,15 @@ All coursework for the Git Complete: The definitive, step-by-step guide to Git  
 
 ## Notes/Commands
 
-
-
 Set name
 - `git config --global user.name "Your Name"`
+
 Set email
 - `git config --global user.email "yourEmail@here.com"`
+
 List name and email
 - `git config --global --list`
+
 Clone my repository to local system
 - `git clone https://github.com/developersCradle/starter-web`
 
