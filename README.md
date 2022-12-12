@@ -46,6 +46,7 @@ Clone my repository to local system
 - `git clone https://github.com/developersCradle/starter-web`
 
 Git in nutshell
+
 <img src="whatIsGit.PNG" alt="alt text" width="300"/>
 
 Staging area building several changes before committed as 1 unit
@@ -169,8 +170,10 @@ Comparing working directory and git repository
 - `git diff HEAD`
 
 
-Comparing staging area and git repository 
+Comparing staging area and git repository
+
 <img src="gitdiffStaged.PNG" alt="alt text" width="300"/>
+
 - `git difftool --staged HEAD`
 - `git diff --staged HEAD`
 
