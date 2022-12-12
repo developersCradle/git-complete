@@ -2,7 +2,7 @@
 ![GIT](gitcomplete.jpg)
 
 Boosting my Git skils.
-All coursework for the Git Complete: The definitive, step-by-step guide to Git  by Jason Taylor.
+All coursework for the Git Complete: The definitive, step-by-step guide to Git  by Jason Taylor. With added notes
 
 [The Course at Udemy](https://www.udemy.com/course/git-complete/)  
 
@@ -29,6 +29,10 @@ All coursework for the Git Complete: The definitive, step-by-step guide to Git  
 
 ## Notes/Commands
 
+We will be using Distrivuted Source Controll **Git**
+
+<img src="SourceControlOptions.PNG" alt="alt text" width="300"/>
+
 Set name
 - `git config --global user.name "Your Name"`
 
@@ -40,6 +44,9 @@ List name and email
 
 Clone my repository to local system
 - `git clone https://github.com/developersCradle/starter-web`
+
+Git in nutshell
+<img src="whatIsGit.PNG" alt="alt text" width="300"/>
 
 Staging area building several changes before committed as 1 unit
 
@@ -61,16 +68,30 @@ Testing default editor is working, editing git config file
 Ask git status
 - `git status`
 
+Branches have such life cycle, increases to right
+
+<img src="branhes.PNG" alt="alt text" width="300"/>
+
 [hipsum](https://hipsum.co/)
-- `origin/master` origin is reference to github repository, and master is branch
-- git status command keeps track of origin master
-- best practise is do pull before push
+
+`origin/master` origin is reference to github repository, and master is branch
+`git status` command keeps track of origin master
+**Best practise** is do pull before push
 
 - Basic Git Workflow
-- <img src="BasicGitWorkflow.PNG" alt="alt text" width="300"/>
+
+<img src="BasicGitWorkflow.PNG" alt="alt text" width="300"/>
+
+<br>
+
+You see theree main working areas, **Working**, **Staging** and **Repository**
+
+<img src="KeyConcepts.PNG" alt="alt text" width="300"/>
+
 
 - Git Tracked file
-- <img src="gitTracking.PNG" alt="alt text" width="300"/>
+
+<img src="gitTracking.PNG" alt="alt text" width="300"/>
 
 Listing tracked files
 - `git ls-files`
@@ -88,6 +109,7 @@ Going back state when files were last committed
 
 When moving or renaming files in encouraged to to use git mv
 - `git mv`
+
 Moving file one level down
 - `mv level2.txt ..`
 
@@ -112,7 +134,8 @@ Creating .gitignore
 - `npp .gitignore`
 
 Format for .gitignore
-- <img src="gitIgnore.PNG" alt="alt text" width="300"/>
+
+<img src="gitIgnore.PNG" alt="alt text" width="300"/>
 
 Telling git default merge tool
 - `git config --global merge.tool p4merge`
@@ -122,6 +145,7 @@ Telling location of merge tool
 
 Telling git default difftool tool
 - `git config --global diff.tool p4merge`
+
 Telling location of difftool tool
 - `git config --global difftool.p4merge.path "D:/Program Files/p4merge.exe"`
 
@@ -137,14 +161,16 @@ Compare in visual difftool if configured in git
 
 HEAD point to the branch where we are on
 HEAD is last commit in this branch
-- <img src="gitdiff.PNG" alt="alt text" width="300"/>
+
+<img src="gitdiff.PNG" alt="alt text" width="300"/>
+
 Comparing working directory and git repository 
 - `git difftool HEAD`
 - `git diff HEAD`
 
 
 Comparing staging area and git repository 
-- <img src="gitdiffStaged.PNG" alt="alt text" width="300"/>
+<img src="gitdiffStaged.PNG" alt="alt text" width="300"/>
 - `git difftool --staged HEAD`
 - `git diff --staged HEAD`
 
@@ -161,7 +187,7 @@ Comparing HEAD and HEAD -1
 - `git diff HEAD HEAD^`
 
 Comapring local and remote master branch
-- <img src="gitDiffMaster.PNG" alt="alt text" width="300"/>
+<img src="gitDiffMaster.PNG" alt="alt text" width="300"/>
 - `git diff master origin/master`
 
 Listin current branches
@@ -186,20 +212,30 @@ Merging title-change branch to current branch
 - `git merge title-change`
 
 Fast foward merge is possible if there is no changed made on the target branch
-- <img src="FastForwardBranchStart.PNG" alt="alt text" width="300"/>
+
+<img src="FastForwardBranchStart.PNG" alt="alt text" width="300"/>
 
 Branch merge whitout fast foward
-- <img src="branchMergeNoFF.PNG" alt="alt text" width="300"/>
+
+<img src="branchMergeNoFF.PNG" alt="alt text" width="300"/>
+
+**Upper line** what is from master and **bottom line** what is from realwork branch
+
 - `git merge add-copyright -no-ff`
 
-- HEAD is referring to masters
-- Upper what is from master and bottom what is form realwork branch
-- During resolving the merge git will save original copy of the mergeconflicts for backup
+**HEAD** is referring to masters
+- HEAD points to current branch
+	- When checkout to another branch -> so does head update pointing to this branch
+
+Check where HEAD points in your machine! `cat .git/HEAD`
+
+
+During resolving the merge git will save original copy of the mergeconflicts for backup
 
 Rebase is getting changes from one branch to another
 - `git rebase master`
 
-DETACHED HEAD is when head is pointing to commit not to branch
+**DETACHED HEAD** is when head is pointing to commit not to branch
 
 Aborting rebase
 - `git rebase --abort`
@@ -207,7 +243,9 @@ Aborting rebase
 Rebase conflict should be treaded like merge conflict
 
 Updating references, updates references between local and remote repositoryes
-- <img src="rebase.PNG" alt="alt text" width="300"/>
+
+<img src="rebase.PNG" alt="alt text" width="300"/>
+
 - `git fetch origin master`
 	- In the simplest terms, `git pull` does a `git fetch` followed by a `git merge`.
 
@@ -230,7 +268,8 @@ Making commit message for stash
 - `git stash save "simple changes"`
 
 3 Stashes
-- <img src="stashList.PNG" alt="alt text" width="300"/>
+
+<img src="stashList.PNG" alt="alt text" width="300"/>
 
 Showing spesific stash 
 `@` reflog syntax
@@ -262,7 +301,7 @@ Deleting tag
 - `git tag --delete myTag`
 
 Annotated tag has litle more extra infomation than normal tag
--`git tag -a v-1.0`
+- `git tag -a v-1.0`
 
 Listing tag
 - `git tag --list`
@@ -288,13 +327,18 @@ OFFICE HOUR SESSION
 
 Reset back one level 
 
-- <img src="branchMergeNoFF.PNG" alt="alt text" width="300"/>
+<img src="branchMergeNoFF.PNG" alt="alt text" width="300"/>
+
 - `git reset HEAD^1`
+
 Reset back two level
+
 - `git reset^2`
 
 Log of everything what we have done
-- <img src="reflog.png" alt="alt text" width="300"/>
+
+<img src="reflog.png" alt="alt text" width="300"/>
+
 - `git reflog`
 
 Resetting to spesific place
