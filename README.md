@@ -29,7 +29,7 @@ All coursework for the Git Complete: The definitive, step-by-step guide to Git  
 
 ## Notes/Commands
 
-We will be using Distrivuted Source Controll **Git**
+We will be using Distributed Source Controll **Git**
 
 <img src="SourceControlOptions.PNG" alt="alt text" width="300"/>
 
