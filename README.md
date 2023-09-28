@@ -1,13 +1,16 @@
 ## Git Complete: The definitive, step-by-step guide to Git 
 ![GIT](gitcomplete.jpg)
 
-Boosting my Git skils.
-All coursework for the Git Complete: The definitive, step-by-step guide to Git  by Jason Taylor. With added notes
+Boosting my Git skills.
+All coursework for the Git Complete: The definitive, step-by-step guide to Git by Jason Taylor. With added notes
 
 [The Course at Udemy](https://www.udemy.com/course/git-complete/)  
 
-<img src="certificate.jpg" alt="alt text" width="600"/>
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:
 
+<img id="certificate" src="certificate.jpg" alt="alt text" width="600"/>
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 ## Progress/Curriculum
 
@@ -29,7 +32,7 @@ All coursework for the Git Complete: The definitive, step-by-step guide to Git  
 
 ## Notes/Commands
 
-We will be using Distributed Source Controll **Git**
+We will be using Distributed Source Control **Git**
 
 <img src="SourceControlOptions.PNG" alt="alt text" width="300"/>
 
@@ -57,7 +60,7 @@ Pushing(origin refers to the GitHub copy of our repository, master is branch nam
 List all the configuration from global or from user level
 - `git config --global --list`
 
-Adding core ediotor to git config
+Adding core editor to git config
 - `git config --global core.editor "notepad++.exe -multiInst -nosession"`
 
 `.bash_profile` to home directory
@@ -73,11 +76,11 @@ Branches have such life cycle, increases to right
 
 <img src="branhes.PNG" alt="alt text" width="300"/>
 
-[hipsum](https://hipsum.co/)
+- [hipsum](https://hipsum.co/)
 
 `origin/master` origin is reference to github repository, and master is branch
 `git status` command keeps track of origin master
-**Best practise** is do pull before push
+**Best practise** is do **pull** before **push**
 
 - Basic Git Workflow
 
@@ -85,7 +88,7 @@ Branches have such life cycle, increases to right
 
 <br>
 
-You see theree main working areas, **Working**, **Staging** and **Repository**
+You see their main working areas, **Working**, **Staging** and **Repository**
 
 <img src="KeyConcepts.PNG" alt="alt text" width="300"/>
 
@@ -102,7 +105,7 @@ Git status only shows first level of directories
 Adding file recursively
 - `git add .`
 
-Backingout chenages form staging area
+Backing out changes form staging area
 - `git reset HEAD "filename.here"`
 
 Going back state when files were last committed
@@ -117,24 +120,24 @@ Moving file one level down
 Deleting file
 - `rm "filename"`
 
-Gettig log
+Getting log
 - `git log`
 
 Inspecting individual log of file
 - `git log -- "filename"`
 
-Creating alias for "log --all --graph --decorate --oneline"
+Creating alias for `"log --all --graph --decorate --oneline"`
 - `git config --global alias.hist "log --all --graph --decorate --oneline"`
 
 Now this can be executed
 - `git hist`
 
-To tell git ignore specified untracked files, add to .gitignore file
+To tell git ignore specified untracked files, add to `.gitignore` file
 
-Creating .gitignore
+Creating `.gitignore`
 - `npp .gitignore`
 
-Format for .gitignore
+Format for **.gitignore**
 
 <img src="gitIgnore.PNG" alt="alt text" width="300"/>
 
@@ -144,20 +147,20 @@ Telling git default merge tool
 Telling location of merge tool
 - `git config --global mergetool.p4merge.path "D:/Program Files/p4merge.exe"`
 
-Telling git default difftool tool
+Telling git default **diff tool**
 - `git config --global diff.tool p4merge`
 
-Telling location of difftool tool
+Telling location of diff tool
 - `git config --global difftool.p4merge.path "D:/Program Files/p4merge.exe"`
 
 Disabling Prompt, removing extra nag when needing resolve the conflict
 - `git config --global difftool.prompt false`
 - `git config --global mergetool.prompt false`
 
-Comparing in git, compares working directory and staging area to eachother
+Comparing in git, compares working directory and staging area to each other
 - `git diff`
 
-Compare in visual difftool if configured in git
+Compare in visual diff tool if configured in git
 - `git diftool`
 
 HEAD point to the branch where we are on
@@ -177,11 +180,11 @@ Comparing staging area and git repository
 - `git difftool --staged HEAD`
 - `git diff --staged HEAD`
 
-Diffing seperate files
+Diffing separate files
 - `git diff -- README.md`
 - `git difftool-- README.md`
 
-Comapring between two commits
+Comparing between two commits
 - `git diff 0108803 HEAD`
 OR
 - `git diff 0108803 effe8b6`
@@ -189,11 +192,11 @@ HEAD points to last commit in current branch
 Comparing HEAD and HEAD -1
 - `git diff HEAD HEAD^`
 
-Comapring local and remote master branch
+Comparing local and remote master branch
 <img src="gitDiffMaster.PNG" alt="alt text" width="300"/>
 - `git diff master origin/master`
 
-Listin current branches
+Listing current branches
 - `git branch -a`
 
 Creating branch
@@ -214,26 +217,26 @@ Diffing master branch to title-change branch
 Merging title-change branch to current branch
 - `git merge title-change`
 
-Fast foward merge is possible if there is no changed made on the target branch
+Fast-forward merge is possible if there is no changed made on the target branch
 
 <img src="FastForwardBranchStart.PNG" alt="alt text" width="300"/>
 
-Branch merge whitout fast foward
+Branch merge whiteout fast-forward
 
 <img src="branchMergeNoFF.PNG" alt="alt text" width="300"/>
 
-**Upper line** what is from master and **bottom line** what is from realwork branch
+**Upper line** what is from master and **bottom line** what is from real work branch
 
 - `git merge add-copyright -no-ff`
 
 **HEAD** is referring to masters
 - HEAD points to current branch
-	- When checkout to another branch -> so does head update pointing to this branch
+	- When checkout to another branch → so does head update pointing to this branch
 
 Check where HEAD points in your machine! `cat .git/HEAD`
 
 
-During resolving the merge git will save original copy of the mergeconflicts for backup
+During resolving the merge git will save original copy of the merge conflicts for backup
 
 Rebase is getting changes from one branch to another
 - `git rebase master`
@@ -243,9 +246,9 @@ Rebase is getting changes from one branch to another
 Aborting rebase
 - `git rebase --abort`
 
-Rebase conflict should be treaded like merge conflict
+**Rebase conflict** should be treated like **merge conflict**
 
-Updating references, updates references between local and remote repositoryes
+Updating references, updates references between local and remote repositories
 
 <img src="rebase.PNG" alt="alt text" width="300"/>
 
@@ -258,7 +261,7 @@ Invoking git stash, add modified files to stash
 Applying stash
 - `git stash apply`
 
-List stahes
+List stashes
 - `git stash list`
 
 Drops last stash
@@ -274,14 +277,14 @@ Making commit message for stash
 
 <img src="stashList.PNG" alt="alt text" width="300"/>
 
-Showing spesific stash 
+Showing specific stash 
 `@` reflog syntax
 - `git stash show stash@{1}`
 
-Applying spesific stash
+Applying specific stash
 - `git stash apply stash@{1}`
 
-Dropping spesific stash
+Dropping specific stash
 - `git stash drop stash@{1}`
 
 Emptying empty of stashes
@@ -293,17 +296,17 @@ Adding files to stash new files and modified files
 Creating, switching branch, applying and destroying stash all in one
 - `git stash branch newchanges`
 
-Tags are just labes which we can attack to any commit in history
-Creates myTag, light weight tag
+Tags are just labels which we can attack to any commit in history
+Creates **myTag**, lightweight tag
 - `git tag myTag`
 
-Showin list of tags
+Showing list of tags
 - `git tag --list`
 
 Deleting tag
 - `git tag --delete myTag`
 
-Annotated tag has litle more extra infomation than normal tag
+Annotated tag has little more extra information than normal tag
 - `git tag -a v-1.0`
 
 Listing tag
@@ -315,7 +318,7 @@ Showing the tag
 Comparing tags
 - `git diff v-1.0 v-1.2`
 
-Tagging spesific Commit
+Tagging specific Commit
 - `git tag -a v-0.9-beta 21df23a`
 
 Editing tag
@@ -335,29 +338,25 @@ Reset back one level
 - `git reset HEAD^1`
 
 Reset back two level
-
 - `git reset^2`
 
 Log of everything what we have done
 
-<img src="reflog.png" alt="alt text" width="300"/>
+<img src="reflog.PNG" alt="alt text" width="300"/>
 
 - `git reflog`
 
-Resetting to spesific place
+Resetting to specific place
 - `git reset e343212`
 
-Resetting to spesific place using @ marking, works with stahes
+Resetting to specific place using @ marking, works with stashes
 - `git reset HEAD@{2}`
 
 Show local and remote branches
 - `git branch -a`
 
-Gets references that has changes in remote repository
+Get references that have changes in remote repository
 - `git fetch`
-
-
-
 
 ## Additional stuff
 - https://marklodato.github.io/visual-git-guide/index-en.html
