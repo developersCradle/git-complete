@@ -2,32 +2,39 @@
 ![GIT](gitcomplete.jpg)
 
 Boosting my Git skills.
-All coursework for the Git Complete: The definitive, step-by-step guide to Git by Jason Taylor. With added notes
+All coursework for the Git Complete: The definitive, step-by-step guide to Git by Jason Taylor. With my own added notes.
 
 [The Course at Udemy](https://www.udemy.com/course/git-complete/)  
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:
 
-<img id="certificate" src="certificate.jpg" alt="alt text" width="600"/>
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+- Todo [git byset](https://www.youtube.com/watch?v=aulaZBVS16g&list=WL&index=98)
+
+<img id="certificate?trk=public_profile_see-credential" src="certificate_git.jpg" alt="alt text" width="600"/>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 ## Progress/Curriculum
 
-- [x] 01 - Introduction 
-- [x] 02 - Git Installation
-- [x] 03 - Git Quick Start
-- [x] 04 - Text Editor Installation
-- [x] 05 - Basic Git Commands
-- [x] 06 - Visual Merge/Diff Tool Installation
-- [x] 07 - Comparisons
-- [x] 08 - Branching and Merging
-- [x] 09 - Rebasing
-- [x] 10 - Stashing
-- [x] 11 - Tagging
-- [x] 12 - Bonus: Office Hour Sessions
-- [x] 13 - Updates and Errata
-- [x] 14 - Bonus: Resources and Special Offers
+- [x] 01 - [Introduction](#) 
+- [x] 02 - [Git Installation](#)
+- [x] 03 - [Git Quick Start](#)
+- [x] 04 - [Text Editor Installation](#)
+- [x] 05 - [Basic Git Commands](#)
+- [x] 06 - [Visual Merge/Diff Tool Installation](#)
+- [x] 07 - [Comparisons](#)
+- [x] 08 - [Branching and Merging](#)
+- [x] 09 - [Rebasing](#)
+- [x] 10 - [Stashing](#)
+- [x] 11 - [Tagging](#)
+- [x] 12 - [Bonus: Office Hour Sessions](#)
+- [x] 13 - [Updates and Errata](#)
+- [x] 14 - [Bonus: Resources and Special Offers](#)
 
 
 ## Notes/Commands
@@ -357,6 +364,9 @@ Show local and remote branches
 
 Get references that have changes in remote repository
 - `git fetch`
+
+To make git save long filenames, use following.
+- `git config --system core.longpaths true`
 
 ## Additional stuff
 - https://marklodato.github.io/visual-git-guide/index-en.html
