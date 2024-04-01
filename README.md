@@ -13,7 +13,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-- Todo [git byset](https://www.youtube.com/watch?v=aulaZBVS16g&list=WL&index=98)
+- Todo [git bisect](https://www.youtube.com/watch?v=aulaZBVS16g&list=WL&index=98)
 
 <img id="certificate?trk=public_profile_see-credential" src="certificate_git.jpg" alt="alt text" width="600"/>
 
@@ -21,27 +21,23 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 ## Progress/Curriculum
 
-- [x] 01 - [Introduction](#) 
-- [x] 02 - [Git Installation](#)
-- [x] 03 - [Git Quick Start](#)
-- [x] 04 - [Text Editor Installation](#)
-- [x] 05 - [Basic Git Commands](#)
-- [x] 06 - [Visual Merge/Diff Tool Installation](#)
-- [x] 07 - [Comparisons](#)
-- [x] 08 - [Branching and Merging](#)
-- [x] 09 - [Rebasing](#)
-- [x] 10 - [Stashing](#)
-- [x] 11 - [Tagging](#)
-- [x] 12 - [Bonus: Office Hour Sessions](#)
-- [x] 13 - [Updates and Errata](#)
-- [x] 14 - [Bonus: Resources and Special Offers](#)
+- [x] 01 - [Introduction](https://github.com/developersCradle/git-complete/tree/master/Section%2001%20Introduction) 
+- [x] 02 - [Git Installation](https://github.com/developersCradle/git-complete/tree/master/Section%2002%20Git%20Installation)
+- [x] 03 - [Git Quick Start](https://github.com/developersCradle/git-complete/tree/master/Section%2003%20Git%20Quick%20Start)
+- [x] 04 - [Text Editor Installation](https://github.com/developersCradle/git-complete/tree/master/Section%2004%20Text%20Editor%20Installation)
+- [x] 05 - [Basic Git Commands](https://github.com/developersCradle/git-complete/tree/master/Section%2005%20Basic%20Git%20Commands)
+- [x] 06 - [Visual Merge/Diff Tool Installation](https://github.com/developersCradle/git-complete/tree/master/Section%2006%20Visual%20MergeDiff%20Tool%20Installation)
+- [x] 07 - [Comparisons](https://github.com/developersCradle/git-complete/tree/master/Section%2007%20Comparisons)
+- [x] 08 - [Branching and Merging](https://github.com/developersCradle/git-complete/tree/master/Section%2008%20Branching%20and%20Merging)
+- [x] 09 - [Rebasing](https://github.com/developersCradle/git-complete/tree/master/Section%2009%20Rebasing)
+- [x] 10 - [Stashing](https://github.com/developersCradle/git-complete/tree/master/Section%2010%20Stashing)
+- [x] 11 - [Tagging](https://github.com/developersCradle/git-complete/tree/master/Section%2011%20Tagging)
+- [x] 12 - [Bonus: Office Hour Sessions](https://github.com/developersCradle/git-complete/tree/master/Section%2012%20Bonus%20Office%20Hour%20Sessions)
+- [x] 13 - [Updates and Errata](https://github.com/developersCradle/git-complete/tree/master/Section%2013%20Updates%20and%20Errata)
+- [x] 14 - [Bonus: Resources and Special Offers](https://github.com/developersCradle/git-complete/tree/master/Section%2014%20Bonus%20Resources%20and%20Special%20Offers)
 
 
 ## Notes/Commands
-
-We will be using Distributed Source Control **Git**
-
-<img src="SourceControlOptions.PNG" alt="alt text" width="300"/>
 
 Set name
 - `git config --global user.name "Your Name"`
@@ -55,9 +51,6 @@ List name and email
 Clone my repository to local system
 - `git clone https://github.com/developersCradle/starter-web`
 
-Git in nutshell
-
-<img src="whatIsGit.PNG" alt="alt text" width="300"/>
 
 Staging area building several changes before committed as 1 unit
 

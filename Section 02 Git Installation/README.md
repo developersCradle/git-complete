@@ -1,8 +1,7 @@
 
-## Section 01 Introduction
+## Section 02 Git Installation
 
-Introduction
+Git Installation
 
 # What I Learned
 
-# Introduction
