@@ -1,4 +1,5 @@
 ## Git Complete: The definitive, step-by-step guide to Git 
+
 ![GIT](gitcomplete.jpg)
 
 Boosting my Git skills.
@@ -6,10 +7,10 @@ All coursework for the Git Complete: The definitive, step-by-step guide to Git b
 
 [The Course at Udemy](https://www.udemy.com/course/git-complete/)  
 
-If the content sparked :fire: your interest, please consider buying the course and start learning :book:
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
 <!-- 
-Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+LinkedIn puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
 ?trk=public_profile_see-credential 
 -->
 
@@ -24,29 +25,20 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [x] 01 - [Section 01](https://github.com/developersCradle/git-complete/tree/master/Section%2001%20Introduction) - Introduction ✔️
 - [x] 02 - [Section 02](https://github.com/developersCradle/git-complete/tree/master/Section%2002%20Git%20Installation) - Git Installation ✔️
 - [x] 03 - [Section 03](https://github.com/developersCradle/git-complete/tree/master/Section%2003%20Git%20Quick%20Start) - Git Quick Start ✔️ 
-- [x] 04 - [Section 04](#) - GitHub Updates  
-- [x] 04 - [Section 04](https://github.com/developersCradle/git-complete/tree/master/Section%2004%20Text%20Editor%20Installation) - Text Editor Installation
-- [x] 05 - [Section 05](https://github.com/developersCradle/git-complete/tree/master/Section%2005%20Basic%20Git%20Commands) - Basic Git Commands
-- [x] 06 - [Section 06](https://github.com/developersCradle/git-complete/tree/master/Section%2006%20Visual%20MergeDiff%20Tool%20Installation) - Visual Merge/Diff Tool Installation
-- [x] 07 - [Section 07](https://github.com/developersCradle/git-complete/tree/master/Section%2007%20Comparisons) - Comparisons
-- [x] 08 - [Section 08](https://github.com/developersCradle/git-complete/tree/master/Section%2008%20Branching%20and%20Merging) - Branching and Merging
-- [x] 09 - [Section 09](https://github.com/developersCradle/git-complete/tree/master/Section%2009%20Rebasing) - Rebasing
-- [x] 10 - [Section 10](https://github.com/developersCradle/git-complete/tree/master/Section%2010%20Stashing) - Stashing
-- [x] 11 - [Section 11](https://github.com/developersCradle/git-complete/tree/master/Section%2011%20Tagging) - Tagging
-- [x] 12 - [Section 12](https://github.com/developersCradle/git-complete/tree/master/Section%2012%20Bonus%20Office%20Hour%20Sessions) - Bonus: Office Hour Sessions
-- [x] 13 - [Section 13](https://github.com/developersCradle/git-complete/tree/master/Section%2013%20Updates%20and%20Errata) - Updates and Errata
-- [x] 14 - [Section 14](https://github.com/developersCradle/git-complete/tree/master/Section%2014%20Bonus%20Resources%20and%20Special%20Offers) - Bonus: Resources and Special Offers
+- [x] 04 - [Section 04](https://github.com/developersCradle/git-complete/tree/master/Section%2004%20GitHub%20Updates) - GitHub Updates ✔️ 
+- [x] 05 - [Section 04](https://github.com/developersCradle/git-complete/tree/master/Section%2004%20Text%20Editor%20Installation) - Text Editor Installation ✔️
+- [x] 06 - [Section 05](https://github.com/developersCradle/git-complete/tree/master/Section%2005%20Basic%20Git%20Commands) - Basic Git Commands
+- [x] 07 - [Section 06](https://github.com/developersCradle/git-complete/tree/master/Section%2006%20Visual%20MergeDiff%20Tool%20Installation) - Visual Merge/Diff Tool Installation
+- [x] 08 - [Section 07](https://github.com/developersCradle/git-complete/tree/master/Section%2007%20Comparisons) - Comparisons
+- [x] 09 - [Section 08](https://github.com/developersCradle/git-complete/tree/master/Section%2008%20Branching%20and%20Merging) - Branching and Merging
+- [x] 10 - [Section 09](https://github.com/developersCradle/git-complete/tree/master/Section%2009%20Rebasing) - Rebasing
+- [x] 11 - [Section 10](https://github.com/developersCradle/git-complete/tree/master/Section%2010%20Stashing) - Stashing
+- [x] 12 - [Section 11](https://github.com/developersCradle/git-complete/tree/master/Section%2011%20Tagging) - Tagging
+- [x] 13 - [Section 12](https://github.com/developersCradle/git-complete/tree/master/Section%2012%20Bonus%20Office%20Hour%20Sessions) - Bonus: Office Hour Sessions
+- [x] 14 - [Section 13](https://github.com/developersCradle/git-complete/tree/master/Section%2013%20Updates%20and%20Errata) - Updates and Errata
+- [x] 15 - [Section 14](https://github.com/developersCradle/git-complete/tree/master/Section%2014%20Bonus%20Resources%20and%20Special%20Offers) - Bonus: Resources and Special Offers
 
 ## Notes/Commands
-
-Adding core editor to git config
-- `git config --global core.editor "notepad++.exe -multiInst -nosession"`
-
-`.bash_profile` to home directory
-Configure Notepad++ with git
-
-Testing default editor is working, editing git config file
-- `git config --global -e`
 
 
 Branches have such life cycle, increases to right
