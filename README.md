@@ -14,9 +14,7 @@ LinkedIn puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-- Todo [git bisect](https://www.youtube.com/watch?v=aulaZBVS16g&list=WL&index=98)
-
-<img id="certificate?trk=public_profile_see-credential" src="certificate_git.jpg" alt="alt text" width="600"/>
+<img id="certificate_git_complete?trk=public_profile_see-credential" src="certificate_git.jpg" alt="alt text" width="600"/>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -26,22 +24,21 @@ LinkedIn puts this shit front, when clicking from private mode x(. Need to put t
 - [x] 02 - [Section 02](https://github.com/developersCradle/git-complete/tree/master/Section%2002%20Git%20Installation) - Git Installation ✔️
 - [x] 03 - [Section 03](https://github.com/developersCradle/git-complete/tree/master/Section%2003%20Git%20Quick%20Start) - Git Quick Start ✔️ 
 - [x] 04 - [Section 04](https://github.com/developersCradle/git-complete/tree/master/Section%2004%20GitHub%20Updates) - GitHub Updates ✔️ 
-- [x] 05 - [Section 04](https://github.com/developersCradle/git-complete/tree/master/Section%2004%20Text%20Editor%20Installation) - Text Editor Installation ✔️
-- [x] 06 - [Section 05](https://github.com/developersCradle/git-complete/tree/master/Section%2005%20Basic%20Git%20Commands) - Basic Git Commands
-- [x] 07 - [Section 06](https://github.com/developersCradle/git-complete/tree/master/Section%2006%20Visual%20MergeDiff%20Tool%20Installation) - Visual Merge/Diff Tool Installation
-- [x] 08 - [Section 07](https://github.com/developersCradle/git-complete/tree/master/Section%2007%20Comparisons) - Comparisons
-- [x] 09 - [Section 08](https://github.com/developersCradle/git-complete/tree/master/Section%2008%20Branching%20and%20Merging) - Branching and Merging
-- [x] 10 - [Section 09](https://github.com/developersCradle/git-complete/tree/master/Section%2009%20Rebasing) - Rebasing
-- [x] 11 - [Section 10](https://github.com/developersCradle/git-complete/tree/master/Section%2010%20Stashing) - Stashing
-- [x] 12 - [Section 11](https://github.com/developersCradle/git-complete/tree/master/Section%2011%20Tagging) - Tagging
-- [x] 13 - [Section 12](https://github.com/developersCradle/git-complete/tree/master/Section%2012%20Bonus%20Office%20Hour%20Sessions) - Bonus: Office Hour Sessions
-- [x] 14 - [Section 13](https://github.com/developersCradle/git-complete/tree/master/Section%2013%20Updates%20and%20Errata) - Updates and Errata
-- [x] 15 - [Section 14](https://github.com/developersCradle/git-complete/tree/master/Section%2014%20Bonus%20Resources%20and%20Special%20Offers) - Bonus: Resources and Special Offers
+- [x] 05 - [Section 05](https://github.com/developersCradle/git-complete/tree/master/Section%2005%20Basic%20Git%20Commands) - Text Editor Installation ✔️
+- [x] 06 - [Section 06](https://github.com/developersCradle/git-complete/tree/master/Section%2005%20Basic%20Git%20Commands) - Basic Git Commands
+- [x] 07 - [Section 07](https://github.com/developersCradle/git-complete/tree/master/Section%2006%20Visual%20MergeDiff%20Tool%20Installation) - Visual Merge/Diff Tool Installation
+- [x] 08 - [Section 08](https://github.com/developersCradle/git-complete/tree/master/Section%2007%20Comparisons) - Comparisons
+- [x] 09 - [Section 09](https://github.com/developersCradle/git-complete/tree/master/Section%2008%20Branching%20and%20Merging) - Branching and Merging
+- [x] 10 - [Section 10](https://github.com/developersCradle/git-complete/tree/master/Section%2009%20Rebasing) - Rebasing
+- [x] 11 - [Section 11](https://github.com/developersCradle/git-complete/tree/master/Section%2010%20Stashing) - Stashing
+- [x] 12 - [Section 12](https://github.com/developersCradle/git-complete/tree/master/Section%2011%20Tagging) - Tagging
+- [x] 13 - [Section 13](https://github.com/developersCradle/git-complete/tree/master/Section%2012%20Bonus%20Office%20Hour%20Sessions) - Bonus: Office Hour Sessions
+- [x] 14 - [Section 14](https://github.com/developersCradle/git-complete/tree/master/Section%2013%20Updates%20and%20Errata) - Updates and Errata
+- [x] 15 - [Section 15](https://github.com/developersCradle/git-complete/tree/master/Section%2014%20Bonus%20Resources%20and%20Special%20Offers) - Bonus: Resources and Special Offers.
 
 ## Notes/Commands
 
-
-Branches have such life cycle, increases to right
+Branches have such life cycle, increases to right.
 
 <img src="branhes.PNG" alt="alt text" width="300"/>
 
@@ -161,8 +158,10 @@ HEAD points to last commit in current branch
 Comparing HEAD and HEAD -1
 - `git diff HEAD HEAD^`
 
-Comparing local and remote master branch
+- Comparing local and remote master branch.
+
 <img src="gitDiffMaster.PNG" alt="alt text" width="300"/>
+
 - `git diff master origin/master`
 
 Listing current branches
@@ -330,9 +329,33 @@ Get references that have changes in remote repository
 To make git save long filenames, use following.
 - `git config --system core.longpaths true`
 
-## Additional stuff
-- https://marklodato.github.io/visual-git-guide/index-en.html
-- https://www.youtube.com/watch?v=uR6G2v_WsRA Core Concepts 1
-- https://www.youtube.com/watch?v=FyAAIHHClqI Branching and Merging 2
-- https://www.youtube.com/watch?v=Gg4bLk8cGNo Remotes 3
+### Additional stuff
 
+- [x] [Visual Git](https://marklodato.github.io/visual-git-guide/index-en.html).
+- [x] [Branching and Merging 2](https://www.youtube.com/watch?v=FyAAIHHClqI).
+- [x] [Remotes 3](https://www.youtube.com/watch?v=Gg4bLk8cGNo).
+- [ ] [Git Bisect](https://www.youtube.com/watch?v=aulaZBVS16g&list=WL&index=98).
+
+## The Git & Github Bootcamp
+
+![Git Bootcamp](gitBootCamp.PNG)
+
+Mastering the essentials and the tricky bits.
+All coursework for the The Git & Github Bootcamp by **Colt Steele**. With my own added notes.
+
+[The Course at Udemy](https://www.udemy.com/course/git-and-github-bootcamp)  
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
+
+<!-- 
+LinkedIn puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+<!-- <img id="certificate_github_bootcamp?trk=public_profile_see-credential" src="" alt="alt text" width="600"/> -->
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+## Progress/Curriculum
+
+- [ ] 01 - [Section 01](#) - 

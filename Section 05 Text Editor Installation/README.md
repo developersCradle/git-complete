@@ -33,3 +33,15 @@ Adding core editor to git config.
 
 <img src="gitNotepadConfiguring.JPG" alt="alt" width="300"/>
 
+1. Setting core editor into global config. `git config --global core.editor "notepad++.exe -multiInst -nosession"`
+2. Listing global configurations. `git config --global --list`
+
+3. Testing if tool starts with default settings `git config --global -e`
+
+# Mac Text Editor: TextMate 2 Installation
+
+- Skipping, won't use mac
+
+# Configure Text Mate 2 with Git (Mac Only)
+
+- Skipping, won't use mac
