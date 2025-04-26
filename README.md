@@ -1,4 +1,6 @@
-## Git Complete: The definitive, step-by-step guide to Git 
+<p align="center">
+    <img id="git complete" src="Git Complete The definitive, step-by-step guide to Git title.png" height=100>
+</p>
 
 ![GIT](gitcomplete.jpg)
 
@@ -14,17 +16,21 @@ LinkedIn puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<img id="certificate_git_complete?trk=public_profile_see-credential" src="certificate_git.jpg" alt="alt text" width="600"/>
+<p align="center">
+	<img id="certificate_git_complete?trk=public_profile_see-credential" src="certificate_git.jpg" alt="alt text" width="600"/>
+</p>
+
+
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 #### Progress/Curriculum.
 
-- [x] [Section 01](https://github.com/developersCradle/git-complete/tree/master/Section%2001%20Introduction) - Introduction ✔️
-- [x] [Section 02](https://github.com/developersCradle/git-complete/tree/master/Section%2002%20Git%20Installation) - Git Installation ✔️
-- [x] [Section 03](https://github.com/developersCradle/git-complete/tree/master/Section%2003%20Git%20Quick%20Start) - Git Quick Start ✔️ 
-- [x] [Section 04](https://github.com/developersCradle/git-complete/tree/master/Section%2004%20GitHub%20Updates) - GitHub Updates ✔️ 
-- [x] [Section 05](https://github.com/developersCradle/git-complete/tree/master/Section%2005%20Basic%20Git%20Commands) - Text Editor Installation ✔️
+- [x] [Section 01](https://github.com/developersCradle/git-complete/tree/master/Section%2001%20Introduction) - Introduction. ✔️
+- [x] [Section 02](https://github.com/developersCradle/git-complete/tree/master/Section%2002%20Git%20Installation) - Git Installation. ✔️
+- [x] [Section 03](https://github.com/developersCradle/git-complete/tree/master/Section%2003%20Git%20Quick%20Start) - Git Quick Start. ✔️ 
+- [x] [Section 04](https://github.com/developersCradle/git-complete/tree/master/Section%2004%20GitHub%20Updates) - GitHub Updates. ✔️ 
+- [x] [Section 05](https://github.com/developersCradle/git-complete/tree/master/Section%2005%20Basic%20Git%20Commands) - Text Editor Installation. ✔️
 - [x] [Section 06](https://github.com/developersCradle/git-complete/tree/master/Section%2005%20Basic%20Git%20Commands) - Basic Git Commands
 - [x] [Section 07](https://github.com/developersCradle/git-complete/tree/master/Section%2006%20Visual%20MergeDiff%20Tool%20Installation) - Visual Merge/Diff Tool Installation
 - [x] [Section 08](https://github.com/developersCradle/git-complete/tree/master/Section%2007%20Comparisons) - Comparisons
@@ -336,7 +342,11 @@ To make git save long filenames, use following.
 - [x] [Remotes 3](https://www.youtube.com/watch?v=Gg4bLk8cGNo).
 - [ ] [Git Bisect](https://www.youtube.com/watch?v=aulaZBVS16g&list=WL&index=98).
 
-## The Git & GitHub Bootcamp.
+
+<p align="center">
+    <img id="git bootcamp" src="The Git & GitHub Bootcamp title.png" height=100>
+</p>
+
 
 ![Git Bootcamp](gitBootCamp.PNG)
 
@@ -359,4 +369,21 @@ LinkedIn puts this shit front, when clicking from private mode x(. Need to put t
 #### Progress/Curriculum.
 
 - [ ] [Section 01](#) - 
+- [ ] [Section 02](#) - 
+- [ ] [Section 03](#) - 
+- [ ] [Section 04](#) - 
+- [ ] [Section 05](#) - 
+- [ ] [Section 06](#) - 
+- [ ] [Section 07](#) -
+- [ ] [Section 08](#) -
+- [ ] [Section 09](#) -
+- [ ] [Section 10](#) -
+- [ ] [Section 11](#) -
+- [ ] [Section 12](#) -
+- [ ] [Section 13](#) -
+- [ ] [Section 14](#) -
 - [ ] [Section 15](https://github.com/developersCradle/git-complete/tree/master/The%20Git%20%26%20Github%20Bootcamp/Section%2015#section-15-rebasing-the-scariest-git-command) - Rebasing: The Scariest Git Command?
+
+#### Additional stuff.
+
+- [ ] Some other stuff.

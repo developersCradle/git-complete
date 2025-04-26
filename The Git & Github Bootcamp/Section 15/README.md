@@ -1,5 +1,5 @@
 
-## Section 15: Rebasing: The Scariest Git Command?
+# Section 15: Rebasing: The Scariest Git Command?
 
 Rebasing: The Scariest Git Command?
 
@@ -85,7 +85,60 @@ git switch master
 # We add new work for the master branch.
 # In this example, we add something for the website.txt and add it. We are at master branch.
 git commit -am "add footer"
+# Here is the status update of below.
 ```
 
+<img src="currentSituvation.PNG" alt="alt" width="600"/>
+
+1. `Master` branch has **commits**, which we don't have in the feature `branch`.
+2. Our `feature` branch does not have same **commits** as in the `master`.
+
+<img src="currentSituvation.PNG" alt="alt" width="600"/>
+
+1. **Looking** in branch view, you can see **two** different branches.
+    - If we want the commits form the `master` branch to the `feature` branch, we could make the **merge**.
+        - We would say **merge master into feature branch**, notice the order.
 
 
+```
+git merge master
+git log --oneline
+```
+<img src="mergeCommitInTxt.PNG" alt="alt" width="400"/>
+
+1. **Merge commit** and this will be saved in the git history.
+
+<img src="mergeCommitInCmd.PNG" alt="alt" width="400"/>
+
+1. Now we have this **merge commit** in the logs.
+
+<img src="branchViewAfterMerge.PNG" alt="alt" width="400"/>
+
+1. Also, the branch in **GUI** after commits. You can see the **merge**.
+
+<img src="mergeCommitShit.jpg" alt="alt" width="300"/>
+
+```
+# Adding here stuff to feature.txt in feature branch.
+git commit -am "more work on feature"
+git switch master
+# Adding login form to website.txt
+git commit -am "add login form"
+```
+
+<img src="branchViewSecond.PNG" alt="alt" width="400"/>
+
+1. **Once again** we want to go to master and `merge` master to `feature` branch.
+
+```
+git switch feat
+git merge master
+```
+
+<img src="branchViewThird.PNG" alt="alt" width="400"/>
+
+1. We will have these **merge** commits in history.
+
+- This is where **rebasing** will come to help, clean history!
+
+# Rebasing Demo Pt 2: Actually Rebasing.
