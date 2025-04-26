@@ -359,4 +359,4 @@ LinkedIn puts this shit front, when clicking from private mode x(. Need to put t
 #### Progress/Curriculum.
 
 - [ ] [Section 01](#) - 
-- [ ] [Section 15](#) - Rebasing: The Scariest Git Command?
+- [ ] [Section 15](https://github.com/developersCradle/git-complete/tree/master/The%20Git%20%26%20Github%20Bootcamp/Section%2015#section-15-rebasing-the-scariest-git-command) - Rebasing: The Scariest Git Command?
