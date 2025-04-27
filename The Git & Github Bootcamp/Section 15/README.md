@@ -53,6 +53,7 @@ Rebasing: The Scariest Git Command?
 2. **Rebase** re-writes the history as **one**!
     - ✅No merge commits✅.
     - ❌No time **stamps** when these were **originally** written ❌.
+    - ❌Hashes are also changed ❌. 
 3. **Commits** from the `feature` branch will be added to **tip** of the `master` branch.
 
 <img src="rebasing2.PNG" alt="alt" width="600"/>
@@ -142,3 +143,69 @@ git merge master
 - This is where **rebasing** will come to help, clean history!
 
 # Rebasing Demo Pt 2: Actually Rebasing.
+
+- The same, but with **rebasing**, we need update `feat` branch weekly.
+
+<img src="rebasingInAction.PNG" alt="alt" width="600"/>
+
+1. **Rebase** will be making history linear.
+2. Workflow is here following:
+    - So we will go to `feature` branch, and after we will `rebase` **master**
+3. We will go into to the `feature` branch and, when we call the `rebase` on the `master` branch. **Rebase** = put your work after someone else's work, hence **rebasing** them.
+    - **Linear structure**
+
+```
+git switch feature
+git rebase master
+```
+- The **rebase** message structure:
+
+<img src="logOfRebasing.PNG" alt="alt" width="400"/>
+
+1. `rewinding head to replay your work on top of it ...`, to of **master**.
+
+- **Before** `rebase`.
+
+<img src="beforeRebase.PNG" alt="alt" width="400"/>
+
+1. Before **rebase** command.
+
+<img src="afterRebase.PNG" alt="alt" width="350"/>
+
+- **After** `rebase` branches are in **linear form**.
+
+- To get logs `git log --oneline`.
+
+<img src="gitLogAfterRebaseAndMerge.PNG" alt="alt" width="400"/>
+
+1. You can see the **hashes** are different after **rebase**.
+2. Also, the **merge** commits are gone.
+3. `feature` branch **commits** are on the top.
+4. `master` is pointing here and, as you can see the `master` branch commits **after** the `feat` commits.
+
+- As you can see ✅ **Clean up** ✅ the **merge** commits, while the commits from `master` got appended.
+
+- Example of `rebasing` to top of `develop`.
+
+<img src="exampleOfRebasing.PNG" alt="alt" width="400"/>
+
+1. We will **rebase** commits, top of `feat` form `master`.
+
+```
+git switch master
+# We add here something to the website.txt
+git commit -am "add image gallery"
+git switch feat
+git rebase master
+```
+
+<img src="noNeedToMerge.PNG" alt="alt" width="400"/>
+
+1. As you can see, there is this **linear structure**, and **NO** need to **merge**!
+
+<p align="center">
+    <img src="golderRuleOfRebasing.jpg" alt="alt" width="300"/>
+</p>
+
+# The Golden Rule: When NOT to Rebase.
+
