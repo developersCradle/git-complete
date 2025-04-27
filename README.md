@@ -347,7 +347,6 @@ To make git save long filenames, use following.
     <img id="git bootcamp" src="The Git & GitHub Bootcamp title.png" height=100>
 </p>
 
-
 ![Git Bootcamp](gitBootCamp.PNG)
 
 Mastering the essentials and the tricky bits.
@@ -382,8 +381,9 @@ LinkedIn puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 12](#) -
 - [ ] [Section 13](#) -
 - [ ] [Section 14](#) -
-- [ ] [Section 15](https://github.com/developersCradle/git-complete/tree/master/The%20Git%20%26%20Github%20Bootcamp/Section%2015#section-15-rebasing-the-scariest-git-command) - Rebasing: The Scariest Git Command?
+- [x] [Section 15](https://github.com/developersCradle/git-complete/tree/master/The%20Git%20%26%20Github%20Bootcamp/Section%2015#section-15-rebasing-the-scariest-git-command) - Rebasing: The Scariest Git Command? ✔️
+- [ ] [Section 16](#) - Cleaning Up History With Interactive Rebase.
 
 #### Additional stuff.
 
-- [ ] Some other stuff.
+- [ ] Add here the exercise section, with `rebase`.

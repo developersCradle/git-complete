@@ -209,3 +209,118 @@ git rebase master
 
 # The Golden Rule: When NOT to Rebase.
 
+> [!WARNING]
+> Never **rebase** those commits that have been shared with **others**!!
+
+<img src="warningOfRebase.PNG" alt="alt" width="600"/>
+
+1. So, in **short**, only **rebase** codes that **you** have on your machine and other **DONT!**
+    - So following command is safe, `git rebase master`, when you have `feature` branch. It will **rebase** the `master` into to the `feature` branch. ❌❌❌ If it would be other way around, it would **re-write** the history ❌❌❌.
+        - There are ways to fix this later, but its **effort**.
+
+- If you are **alone** you can **rebase** all the time. 
+
+# Handling Conflicts & Rebasing.
+
+- We are introducing **Conflicts** with the **Rebasing**.
+
+```
+# Modifying website.txt for making conflict.
+git commit -am "update website on feat"
+git switch master
+# Modifying website.txt for making conflict.
+git commit -am "Update copy on master"
+git switch feat
+# Modifying feature.txt for making conflict
+git commit -am "More work on feat"
+```
+
+- After this we have the following branch structure.
+
+<img src="divergePaths.PNG" alt="alt" width="400"/>
+
+1. We have **diverged** paths.
+
+```
+# We are in feat branch.
+git rebase master
+```
+
+<img src="conflictsInRebase.PNG" alt="alt" width="400"/>
+
+1. You can see the **conflict** with the **rebase**.
+
+<img src="currentSituvationInConfict.PNG" alt="alt" width="600"/>
+
+1. You can see the `feat` branch, and the **rebase** has partially done.
+2. Furthermore, you can also see that the commits:
+
+```
+more work on feat
+work in feature
+begin feature 
+```
+
+- As you can see the rebase **partially** finished. **Rebase** is ❌NOT DONE❌.
+    - We could **abort** the mission `git rebase --abort`.
+
+- **Conflict** in the website.txt.
+
+```
+Adding some stuff here!
+<<<<<<< HEAD
+MAIN NAVBAR ADDED!
+FOOTER ADDED!
+SIGNUP FORM ADDED!
+=======
+TOP NAVBAR ADDED!
+LOGOUT FORM ADDED!
+>>>>>>> 3aa9896 (update website on feat)
+IMAGE GALLERY ADDED!
+```
+
+- We are **solved** the conflict in `website.txt`, with following!
+
+```
+TOP NAVBAR ADDED!
+FOOTER ADDED!
+SIGNUP FORM ADDED!
+LOGOUT FORM ADDED!
+Adding some stuff here!
+```
+
+<img src="solvingTheConflictInRebsing.PNG" alt="alt" width="500"/>
+
+1. **Resolve** all conflicts manually, like we did!
+    - Then add them `git add/rm`.
+    - Finished `git rebase --continue`.
+
+- You can check the **rebase** situation `git status`.
+
+<img src="rebaseInConflict.PNG" alt="alt" width="600"/>
+
+1. You can see, where the `rebase` is on.
+
+- Then we will **add** for solving the conflict. 
+
+```
+git add website.txt
+```
+
+<img src="rebaseInConflictAfterAdding.PNG" alt="alt" width="500"/>
+
+1. You can see the **file** have been added.
+
+<img src="rebaseIsPaused.PNG" alt="alt" width="600"/>
+
+1. Branch **view** before rebase in **not** finished.
+
+- We can **continue** the `rebase`.
+
+```
+git rebase --continue
+```
+
+<img src="rebaseFinished.PNG" alt="alt" width="500"/>
+
+1. You can see the **rebase** have been finished, the stuff from `master` is there..
