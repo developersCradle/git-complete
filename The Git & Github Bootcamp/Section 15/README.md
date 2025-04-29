@@ -323,4 +323,5 @@ git rebase --continue
 
 <img src="rebaseFinished.PNG" alt="alt" width="500"/>
 
-1. You can see the **rebase** have been finished, the stuff from `master` is there..
+1. You can see the **rebase** have been finished, the stuff from `master` is there.
+
