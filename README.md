@@ -2,6 +2,8 @@
     <img id="git complete" src="Git Complete The definitive, step-by-step guide to Git title.png" height=100>
 </p>
 
+> We won't be using `git submodule`, because the these are **not** separate repos, as such.
+
 ![GIT](gitcomplete.jpg)
 
 Boosting my Git skills.
@@ -367,7 +369,7 @@ LinkedIn puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Progress/Curriculum.
 
-- [ ] [Section 01](#) - 
+- [x] [Section 01](https://github.com/developersCradle/git-complete/tree/master/The%20Git%20%26%20Github%20Bootcamp/Section%2001#section-01-introduction) - Course Orientation. ✔️
 - [ ] [Section 02](#) - 
 - [ ] [Section 03](#) - 
 - [ ] [Section 04](#) - 
@@ -382,8 +384,10 @@ LinkedIn puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 13](#) -
 - [ ] [Section 14](#) -
 - [x] [Section 15](https://github.com/developersCradle/git-complete/tree/master/The%20Git%20%26%20Github%20Bootcamp/Section%2015#section-15-rebasing-the-scariest-git-command) - Rebasing: The Scariest Git Command? ✔️
-- [ ] [Section 16](#) - Cleaning Up History With Interactive Rebase.
+- [x] [Section 16](https://github.com/developersCradle/git-complete/tree/master/The%20Git%20%26%20Github%20Bootcamp/Section%2016#section-16-cleaning-up-history-with-interactive-rebase) - Cleaning Up History With Interactive Rebase. ✔️
 
 #### Additional stuff.
 
 - [ ] Add here the exercise section, with `rebase`.
+- [ ] Check the pic scope for the chapter 15. rebaseFinished.PNG
+
